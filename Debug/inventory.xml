@@ -1,0 +1,394 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+inventory
+</name>
+</assembly>
+<members>
+<member name="T:inventory._OrderingSystem_mdfDataSet.CupStocksDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSet.LidStocksDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSet.MenuItemsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSet.OrderHistoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSet.StrawStocksDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSet.usersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSet.CupStocksRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSet.LidStocksRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSet.MenuItemsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSet.OrderHistoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSet.StrawStocksRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSet.usersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSet.CupStocksRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSet.LidStocksRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSet.MenuItemsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSet.OrderHistoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSet.StrawStocksRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSet.usersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSetTableAdapters.CupStocksTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSetTableAdapters.LidStocksTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSetTableAdapters.MenuItemsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSetTableAdapters.OrderHistoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSetTableAdapters.StrawStocksTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSetTableAdapters.usersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:inventory._OrderingSystem_mdfDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(inventory._OrderingSystem_mdfDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:inventory._OrderingSystem_mdfDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(inventory._OrderingSystem_mdfDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:inventory._OrderingSystem_mdfDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(inventory._OrderingSystem_mdfDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:inventory._OrderingSystem_mdfDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:inventory._OrderingSystem_mdfDataSetTableAdapters.TableAdapterManager.UpdateAll(inventory._OrderingSystem_mdfDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:inventory._OrderingSystem_mdfDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="M:inventory.utilities.Login(System.String,System.String,System.Int32)">
+	<summary>
+ Returns True if the username, password, and user_type match a record in the database.
+ Case-sensitive check for username and password.
+ </summary>
+</member><member name="P:inventory.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources._482988350_674719525082577_2759715687530981885_n_removebg_preview">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources._490680720_697457179475478_1786445761730645717_n_removebg_preview">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources._5521231">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources._61fdb624_d418_44d9_a22b_d1c49517077a_removebg_preview">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources._85316586_3f1e_4962_a9c9_ddfef880670c_removebg_preview">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.coffee">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.coffee__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.coffee_capsule">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.coffee_cup">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.cross">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.delete__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.file_update">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.food_tray">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.group">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.hide">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.in_stock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.loading">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.menu">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.money">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.out_of_stock__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.password_hidding_icon_icon_for_data_privacy_and_sensitive_content_mark_illustration_vector">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.ready_stock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.search">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.size">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.straws">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.unlock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventory.My.Resources.Resources.user_image_with_black_background">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:inventory.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:inventory.OrderingSystemDBDataSet.OrderHistoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventory.OrderingSystemDBDataSet.OrderHistoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventory.OrderingSystemDBDataSet.OrderHistoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventory.OrderingSystemDBDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:inventory.OrderingSystemDBDataSetTableAdapters.OrderHistoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:inventory.OrderingSystemDBDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(inventory.OrderingSystemDBDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:inventory.OrderingSystemDBDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(inventory.OrderingSystemDBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:inventory.OrderingSystemDBDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(inventory.OrderingSystemDBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:inventory.OrderingSystemDBDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:inventory.OrderingSystemDBDataSetTableAdapters.TableAdapterManager.UpdateAll(inventory.OrderingSystemDBDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:inventory.OrderingSystemDBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:inventory.OrderingSystemDBDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:inventory.OrderingSystemDBDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:inventory._CoffeeShopDB_mdfDataSet.ProductsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventory._CoffeeShopDB_mdfDataSet.ProductsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventory._CoffeeShopDB_mdfDataSet.ProductsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventory._CoffeeShopDB_mdfDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:inventory._CoffeeShopDB_mdfDataSetTableAdapters.ProductsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:inventory._CoffeeShopDB_mdfDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(inventory._CoffeeShopDB_mdfDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:inventory._CoffeeShopDB_mdfDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(inventory._CoffeeShopDB_mdfDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:inventory._CoffeeShopDB_mdfDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(inventory._CoffeeShopDB_mdfDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:inventory._CoffeeShopDB_mdfDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:inventory._CoffeeShopDB_mdfDataSetTableAdapters.TableAdapterManager.UpdateAll(inventory._CoffeeShopDB_mdfDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:inventory._CoffeeShopDB_mdfDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:inventory._CoffeeShopDB_mdfDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:inventory._CoffeeShopDB_mdfDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="M:inventory.connection.Open">
+	<summary>
+ Opens the database connection if it is closed.
+ </summary>
+</member><member name="M:inventory.connection.Close">
+	<summary>
+ Closes the database connection if it is open.
+ </summary>
+</member><member name="M:inventory.connection.AddParam(System.String,System.Object)">
+	<summary>
+ Adds a parameter to the parameter list.
+ </summary>
+</member><member name="M:inventory.connection.Query(System.String)">
+	<summary>
+ Executes a query and fills the DataSet.
+ Returns True if rows are returned.
+ </summary>
+</member>
+</members>
+</doc>
